@@ -19,12 +19,9 @@ $sub_6 = $_POST['Hindi'];
 $remark = $_POST['remark'];
 
 // It will calculate total, average, percentage, and grade
-$total = $sub_1 + $sub_2 + $sub_3 + $sub_4 + $sub_5;
-$average = $total / 5.0;
-$percentage = ($total / 500.0) * 100;
-
-// It will divides average by 10 check switch expression
-$sAvg = (int) ($average / 10);
+$total = $sub_1 + $sub_2 + $sub_3 + $sub_4 + $sub_5 + $sub_6;
+$average = $total / 6.0;
+$percentage = ($total / 600.0) * 100;
 
 /* will calculate the Grade */
 if ($percentage>=75)
